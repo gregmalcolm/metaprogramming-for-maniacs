@@ -1,0 +1,33 @@
+reload!
+McRails
+McRails.env
+McRails.env.development?
+McRails.env.developer
+McRails.env.development?
+McRails.env.test?
+McRails.env.to_s
+McRails.env.beam
+McRails.env.caspar
+McRails.env.respond_to?(:caspar)
+@find_unix_keywords
+system('echo $(compgen -abck)')
+`echo $(compgen -abck)`.split
+`echo $(compgen -abck)`.split.uniq
+`echo $(compgen -abck)`.split.uniq.map(&:to_sym)
+@find_unix_keywords.grep(/[[/)
+@find_unix_keywords = `echo $(compgen -abck)`.split.uniq.map(&:to_sym)
+@find_unix_keywords
+def unix_keywords\
+  @find_unix_keywords.select { |cmd| cmd.to_s =~ /^[a-z_]+$/ }\
+end
+@unix_keywords
+main.class
+main
+Object.ancestors
+Kernel
+Kernel.methods
+Kernel.singleton_methods.grep(/puts/)
+Kernel.singleton_methods
+Kernel.singleton_methods.grep(/Array/)
+Kernel.respond_to?(:eval)
+Kernel.respond_to?(:printf)
