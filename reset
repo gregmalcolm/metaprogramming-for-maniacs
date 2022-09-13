@@ -1,8 +1,12 @@
 #!/usr/bin/env zsh
 
-cd mcrails
-git reset --hard
-git checkout 10
-cd ../unix_anywhere
-git reset --hard
-git checkout 0
+(
+  cd mcrails
+  git reset --hard
+  git checkout 10
+)
+(
+  cd unix_anywhere
+  git reset --hard
+  git checkout 0
+)
