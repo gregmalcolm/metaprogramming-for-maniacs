@@ -1,6 +1,6 @@
 # Metaprogramming for Maniacs Live Coding materials
 
-These are materials used for the presentation of Metaprogramming for maniacs.
+These are materials used the metaprogramming talk.
 
 In addition to use I use some aliases (relative to my repo folder):
 
