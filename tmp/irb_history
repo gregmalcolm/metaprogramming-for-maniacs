@@ -500,3 +500,188 @@ top
 ls
 ls
 sl
+McRails
+McRails.env
+n
+McRails.env
+r
+McRails.env
+McRails.env
+McRails.env.production?
+n
+n
+r
+McRails.env
+McRails.env
+n
+McRails.env.to_s
+r
+McRails.env.to_s
+n
+n
+b
+reset!
+r
+McRails.env.to_s
+McRails.env
+McRails.env.test?
+n
+McRails.env.send(:test?)
+r
+McRails.env.test?
+McRails.env.test
+n
+McRails.env.test?
+McRails.env.production?
+r
+McRails.env.test?
+McRails.env.production?
+`echo $(compgen -abck)`
+`echo $(compgen -abck)`.split.uniq.map(&:to_sym)
+@find_unix_keywords = `echo $(compgen -abck)`.split.uniq.map(&:to_sym) \\
+                      .select { |cmd| cmd.to_s =~ /^[a-z_]+$/ }
+n
+n
+p
+b
+n
+def method_missing(name, *args)\
+  puts name\
+  super\
+end
+def method_missing(name, *args)\
+  puts name\
+  super\
+end
+exit
+eval "1+4"
+prinf "fewfw"
+printf "fewfw"
+Kernel.respond_to?(:eval)
+n
+system "ps"
+df
+top
+ls
+sl
+McRails
+McRails.env
+M
+McRails.env
+r
+McRails.env
+McRails.env
+McRails.env.production?
+n
+n
+r
+McRails.env
+n
+n
+r
+McRails.env.to_s
+McRails.env
+McRails.env.test?
+n
+McRails.env.test?
+McRails.env
+McRails.send(:env)
+McRails.send(:envanything)
+McRails.env
+McRails.env.test?
+McRails.env.casper?
+n
+r
+McRails.env.casper?
+McRails.env.development?
+McRails.env.test?
+`echo $(compgen -abck)`
+`echo $(compgen -abck)`.split.uniq.map(&:to_sym)
+@find_unix_keywords = `echo $(compgen -abck)`.split.uniq.map(&:to_sym) \\
+                      .select { |cmd| cmd.to_s =~ /^[a-z_]+$/ }
+n
+"".ancestors
+"".class.ancestors
+n
+def method_missing(name, *args)\
+  puts name\
+  super\
+end
+def spam\
+  msg = self.to_s.upcase\
+  msg.size.times { puts msg }\
+  msg\
+end
+"Buy spam".spam
+42.spam
+spam
+Object.ancestors
+Kernel.singleton_methods
+puts "hello"
+n
+eval "1 + 3"
+Kernel.respond_to?(:eval)
+n
+sysem "ps"
+system "ps"
+df
+top
+ls
+sl
+McRails.env
+McRails
+n
+McRails.env
+r
+McRails.env
+McRails.env
+n
+b
+McRails.env.production?
+n
+n
+r
+McRails.env
+n
+
+r
+McRails.env.to_s
+McRails.env
+McRails.env.test?
+n
+McRails.env.send(:test?)
+r
+McRails.env.test?
+n
+McRails.env.test?
+r
+McRails.env.test?
+McRails.env.production?
+`echo $(compgen -abck)`
+`echo $(compgen -abck)`.split.uniq.map(&:to_sym)
+@find_unix_keywords = `echo $(compgen -abck)`.split.uniq.map(&:to_sym) \\
+                      .select { |cmd| cmd.to_s =~ /^[a-z_]+$/ }
+n
+def method_missing(name, *args)\
+  puts name\
+  super\
+end
+exit
+def spam\
+  msg = self.to_s.upcase\
+  msg.size.times { puts msg }\
+  msg\
+end
+"Buy spam".spam
+42.spam
+spam
+self.class.ancestors
+Kernel.singleton_methods
+puts "hello"
+n
+Kernel.respond_to?(:eval)
+n
+df
+top
+ls
+sl
