@@ -1,4 +1,4 @@
-Metaprogramming for Maniacs Live Coding materials
+# Metaprogramming for Maniacs Live Coding materials
 
 These are materials used for the presentation of Metaprogramming for maniacs.
 
