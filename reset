@@ -3,7 +3,7 @@
 (
   cd mcrails
   git reset --hard
-  git checkout 20
+  git checkout 0
 )
 (
   cd unix_anywhere
