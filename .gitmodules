@@ -1,6 +1,6 @@
 [submodule "mcrails"]
 	path = mcrails
 	url = https://github.com/gregmalcolm/maniacs-mcrails
-[submodule "unix-anywhere"]
-	path = unix-anywhere
+[submodule "unix_anywhere"]
+	path = unix_anywhere
 	url = https://github.com/gregmalcolm/maniacs-unix-anywhere
