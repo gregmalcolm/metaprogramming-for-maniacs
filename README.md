@@ -40,4 +40,4 @@ scripts/back
 
 I use git folders starting from 0 increasing in increments of 10
 
-./reset resets everything back to the "0" starting branch
+`./reset` resets everything back to the "0" starting branch
