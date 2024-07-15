@@ -27,8 +27,8 @@ I use a series of aliases to move around during the demo. This is my person setu
 export MANIACS_PATH=~/git/maniacs
 
 alias maniacs='cd $MANIACS_PATH'
-alias unix='cd $MANIACS_PATH/unix_anywhere'
 alias mcrails='cd $MANIACS_PATH/mcrails'
+alias unix='cd $MANIACS_PATH/unix_anywhere'
 alias n='scripts/next'
 alias b='scripts/back'
 ```
@@ -38,6 +38,12 @@ In mcrails and unix_anywhere folders demos these scripts are handling travel thr
 ```
 scripts/next
 scripts/back
+```
+
+At any step along the way open the active code file in an irb with:
+
+```
+scripts/console
 ```
 
 I use git folders starting from 0 increasing in increments of 10
