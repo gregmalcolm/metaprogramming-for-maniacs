@@ -2,8 +2,7 @@
 
 ## Setup
 
-Slides:
-https://docs.google.com/presentation/d/1Ugq1LvLssx2dTQRGMWdXxJ0dkz4SuY36hfCVvbN_05Q/edit?usp=sharing
+(Slides)[https://docs.google.com/presentation/d/1Ugq1LvLssx2dTQRGMWdXxJ0dkz4SuY36hfCVvbN_05Q/edit?usp=sharing]
 
 This presentation makes use of git to jump between iterations of demos. For this reason the demos are individual git submodules. Take this into account when cloning:
 
